@@ -1,0 +1,8 @@
+.displayframe-container {
+  height: 240px;
+  background-color: #847e81;
+  width: 67%;
+  border-radius: 15px 15px 60px 15px;
+  border: 2px solid rgb(57, 57, 57);
+  padding: 25px 65px 30px;
+}

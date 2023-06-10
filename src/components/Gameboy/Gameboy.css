@@ -1,0 +1,11 @@
+.gameboy-container {
+  margin: auto;
+  background-color: rgb(189, 186, 179);
+  box-shadow: inset 0px 0px 10px rgb(55, 55, 55);
+  width: 398px;
+  height: 548px;
+  border-radius: 15px 15px 80px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 65px 35px 115px;
+}

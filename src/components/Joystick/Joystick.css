@@ -1,0 +1,31 @@
+.joystick-form {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.joystick-form::before,
+.joystick-form::after {
+  content: "";
+  position: absolute;
+  background-color: #010101;
+  box-shadow: 0px 2px 0px rgb(130, 130, 130);
+}
+
+.joystick-form::before {
+  top: 50%;
+  left: 0;
+  width: 70%;
+  height: 45px;
+  border-radius: 10px;
+  transform: translateY(-20%);
+}
+
+.joystick-form::after {
+  top: 0;
+  left: 25%;
+  width: 45px;
+  height: 70%;
+  border-radius: 10px;
+  transform: translateY(30%);
+}
